@@ -1,0 +1,12 @@
+patch:
+  # 方案列表
+  schema_list:
+    - schema: double_pinyin_flypy  # 小鹤双拼
+
+  # 标点符号
+  punctuator/half_shape/+:
+    '|' : '｜'
+    '~' : '～'
+    '_': "—"
+    '{' : '｛'
+    '}' : '｝'
